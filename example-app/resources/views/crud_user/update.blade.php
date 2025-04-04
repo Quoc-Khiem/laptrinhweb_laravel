@@ -20,6 +20,16 @@
                             <label class="form-label fw-bold">Username</label>
                             <input type="text" class="form-control form-control-lg" name="name" value="{{ $user->name }}" required>
                         </div>
+                        <div class="mb-3 text-start">
+                            <label class="form-label fw-bold">sở thích</label>
+                            <input type="text" class="form-control form-control-lg" name="like" value="{{ $user->like }}" required>
+                        </div>
+
+                        <div class="mb-3 text-start">
+                            <label class="form-label fw-bold">Github</label>
+                            <input type="text" class="form-control form-control-lg" name="github" value="{{ $user->github }}" required>
+                        </div>
+
 
                         <div class="mb-3 text-start">
                             <label class="form-label fw-bold">Mật khẩu</label>
