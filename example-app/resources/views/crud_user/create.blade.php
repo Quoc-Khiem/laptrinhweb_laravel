@@ -14,7 +14,7 @@
                 <form action="{{ route('user.postUser') }}" method="POST">
                     @csrf
                     <div class="mb-3">
-                        <label class="form-label fw-bold">Họ và tên</label>
+                        <label class="form-label fw-bold">Họ và têns</label>
                         <input type="text" placeholder="Nhập họ và tên" id="name" class="form-control form-control-lg" name="name" required autofocus>
                         @if ($errors->has('name'))
                             <span class="text-danger">{{ $errors->first('name') }}</span>
